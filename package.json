@@ -1,0 +1,30 @@
+{
+  "name": "meanang",
+  "version": "1.0.0",
+  "description": "MEAN Stack App with Angular 5",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phangani/MEAN-Stack-With-Angular.git"
+  },
+  "keywords": [
+    "MEAN",
+    "Stack",
+    "Angular",
+    "5",
+    "Application"
+  ],
+  "author": "Levani Phangani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phangani/MEAN-Stack-With-Angular/issues"
+  },
+  "homepage": "https://github.com/phangani/MEAN-Stack-With-Angular.git",
+  "dependencies": {
+    "express": "*",
+    "mongoose": "^5.0.0"
+  }
+}
