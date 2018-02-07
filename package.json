@@ -4,7 +4,8 @@
   "description": "MEAN Stack App with Angular 5",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "cd client && ng build --prod"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,13 @@
   },
   "homepage": "https://github.com/phangani/MEAN-Stack-With-Angular.git",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "cors": "^2.8.4",
     "express": "*",
+    "jsonwebtoken": "^8.1.1",
     "mongoose": "^5.0.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.6.4"
   }
 }
