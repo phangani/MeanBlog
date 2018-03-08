@@ -1,3 +1,4 @@
+# Project Title
 MEAN Stack with Angular 5
 This is an application demonstrating the basic components needed for a Single Page Application using MongoDB, ExpressJS, Angular 5, and NodeJS.
 
